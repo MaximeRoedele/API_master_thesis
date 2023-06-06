@@ -1,0 +1,19 @@
+{
+  "unityVersion": "2021.3.19f1",
+  "perceptionVersion": "1.0.0-preview.1",
+  "renderPipeline": "HDRP",
+  "simulationStartTime": "25.05.2023 14.08.22",
+  "totalFrames": 38,
+  "totalSequences": 1,
+  "sensors": [
+    "camera"
+  ],
+  "metricCollectors": [],
+  "simulationEndTime": "25.05.2023 14.10.52",
+  "annotators": [
+    {
+      "name": "Terrain Segmentation",
+      "type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation"
+    }
+  ]
+}

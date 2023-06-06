@@ -1,0 +1,77 @@
+{
+  "frame": 927,
+  "sequence": 0,
+  "step": 14,
+  "timestamp": 30.7235432,
+  "captures": [
+    {
+      "@type": "type.unity.com/unity.solo.RGBCamera",
+      "id": "camera",
+      "description": "",
+      "position": [
+        -270.0,
+        0.3,
+        -536.0
+      ],
+      "rotation": [
+        0.000222329545,
+        0.7115677,
+        -0.000225161639,
+        0.702617466
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "filename": null,
+      "imageFormat": "Png",
+      "dimension": [
+        1920.0,
+        1080.0
+      ],
+      "projection": "Perspective",
+      "matrix": [
+        1.42814791,
+        0.0,
+        0.0,
+        0.0,
+        2.142222,
+        0.0,
+        0.0,
+        0.0,
+        -1.00000393
+      ],
+      "annotations": [
+        {
+          "@type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation",
+          "id": "Terrain Segmentation",
+          "sensorId": "camera",
+          "description": "Generates a semantic segmentation image for each captured frame. Each object is rendered to the semantic segmentation image using the color associated with it based on this labeler's associated semantic segmentation label configuration. Semantic segmentation images are saved to the dataset in PNG format. Please note that only one SemanticSegmentationLabeler can render at once across all cameras.",
+          "imageFormat": "Png",
+          "dimension": [
+            1920.0,
+            1080.0
+          ],
+          "filename": "step14.camera.Terrain Segmentation.png",
+          "instances": [
+            {
+              "labelName": "Terrain",
+              "pixelValue": [
+                2,
+                255,
+                0,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
